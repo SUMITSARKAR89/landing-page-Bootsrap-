@@ -1,0 +1,175 @@
+:root{
+    ---primary-color:#14151C;
+    ---main-font-color: #FFFFFF;
+    ---text-font-color:#B3B6C2;
+    ---yellow-color:#E0F014;
+    --hover-color:#FDFEF7;
+
+    --font-52: 52px;
+    --font-18: 18px;
+    --font-20: 20px;
+    --font-14: 14px;
+    --font-48: 48px;
+    --font-32: 32px;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Instrument Sans", sans-serif;
+    background-color: var(---primary-color);
+    color: var(---main-font-color);
+}
+.top-nav{
+    background-color: var(---yellow-color);
+    transition: 0.4s;
+    
+}
+.navbar-toggler{
+background-color: var(---text-font-color);
+}
+.top-nav:hover{
+    background-color: var(--hover-color);
+}
+.top-nav p{
+    color: #14151C;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+ul li{
+    margin: 0 10px;
+}
+.nav-link {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(---main-font-color);
+}
+.nav-link:hover{
+    color: var(---yellow-color);
+}
+.btn{
+    color: var(---main-font-color);
+    border: 1px solid var(---main-font-color);
+    border-radius: 0;
+    font-size: 15px;
+    font-weight: 400;
+    transition: 0.4s;
+    background-color: transparent;
+    padding: 10px 24px;
+}
+.btn:hover{
+    background-color: var(--hover-color);
+    color: var(---primary-color);
+}
+hr{
+    color: rgba(175, 165, 165, 0.384);
+}
+.hero-content{
+    max-width: 800px;
+}
+.text-capitalized{
+    font-size: var(--font-14);
+    font-weight: 600;
+    border-bottom: 2px solid #fff;
+    max-width: 260px;
+}
+.hero-content h1{
+    font-size: var(--font-52);
+    max-width: 700px;
+}
+
+.hero-text{
+    color:var(---text-font-color);
+    max-width: 600px;
+    font-size: var(--font-18);
+}
+.hero-content a{
+    background-color: var(---yellow-color);
+    border: 0;
+    color: var(---primary-color);
+    font-weight: 500;
+    font-size: var(--font-20);
+}
+.images img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 1px solid var(---yellow-color);
+    margin: 0 2px;
+}
+.image-card {
+    font-weight: 500;
+}
+.image-card .generate{
+    font-size: var(--font-20);
+    
+}
+.generate span{
+    color: var(---yellow-color);
+}
+.image-card .image-text{
+    color: var(---text-font-color);
+    font-size: 16px;
+    margin-top: -15px;
+}
+.video-text{
+    font-size: var(--font-20);
+    color: var(---text-font-color);
+    font-weight: 600;
+}
+.front-video a{
+    background-color: var(---yellow-color);
+    color: var(---primary-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: var(--font-18);
+  
+}
+.front-video a:hover{
+    background-color: var(---text-font-color);
+}
+.card{
+    border-radius:0 ;
+    background-color: #272933;
+    width: 100%;
+    
+}
+.card h2{
+    font-size: var(--font-48);
+    color: var(---yellow-color);
+    text-transform: uppercase;
+}
+.card h5{
+    font-size: var(--font-18);
+    color: var(---main-font-color);
+    font-weight: 600;
+}
+.services .services-text{
+    color: var(---yellow-color);
+    font-size: var(--font-18);
+    font-weight: 600;
+}
+.services h3{
+    font-size: var(--font-32);
+}
+.services p{
+    font-size: var(--font-18);
+    color: var(---text-font-color);
+    font-weight: 500;
+    text-align: left;
+}
+.services a{
+    background-color: var(---yellow-color);
+    border: 0;
+    color: var(---primary-color);
+    font-size: var(--font-18);
+    font-weight: 600;
+}
